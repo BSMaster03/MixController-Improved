@@ -1,0 +1,52 @@
+.menu-container {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f3f6f400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.menu-card {
+  text-align: center;
+  background: white;
+  padding: 40px 50px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  max-width: 420px;
+  width: 90%;
+}
+
+.menu-card h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #2c5e3f;
+  font-weight: 700;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #4b4b4b;
+}
+
+.menu-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-top: 18px;
+  background: #2c5e3f;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.menu-btn:hover {
+  background: #244d34;
+  transform: translateY(-2px);
+}
